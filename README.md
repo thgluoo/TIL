@@ -1,2 +1,2 @@
-# TIL
+# TIL[monologue]
 Today I Learned
