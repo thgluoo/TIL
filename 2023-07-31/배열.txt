@@ -1,0 +1,18 @@
+여러 data를 index에 기록하는데 이떄
+string [] basic = new string[3]
+> 형식으로 선언을 하는데, basic이라는 변수의 이름을 가진 array에 index가 3칸의 공간이 있다고 선언하는 것이다.
+index는 0부터 시작한다.
+ex). string [] basic = new string[8]
+위의 index의 칸은 8칸이고, 0~7까지 이다.
+
+string만 쓰이는게 아닌 각 type 별에 맞게 array를 만들 수 있다.
+문자열 : string, char , 정수형 : int, 실수형 : float, double, 부울형 : boolean
+
+다만 각 data의 값이 array의 type과 다르면 에러가 발생한다.
+
+조건식을 쓰지 않고 해당 배열을 처음부터 끝까지 반복할때 사용하는 foreach라는것도 존재한다.
+아래와 같은 형태로 사용하고 이것도 동일하게 data값이 array의 type과 같아야한다.
+foreach(변수타입, 반복변수, in 배열)
+   {
+        실행 내용
+   }
